@@ -65,6 +65,7 @@ export class Home extends Component {
 
     return (
       <section className="container">
+        <h1 className="autor">Criado por Vitor Ochoa</h1>
         <div className="search-container">
           {!!searchValue && (
             <h1>Search value: {searchValue}</h1>
